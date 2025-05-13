@@ -8,6 +8,7 @@
   - `notebooks/`: Jupyter notebooks for Cleaning, EDA, Forecasting and Recommendation System
   - `dashboard/`: Streamlit dashboard code
   - `reports/`: Presentations and business recommendations
+  - `requirements.txt`: Requirements to run the project 
   
   ## Approach
   
