@@ -24,7 +24,7 @@
     - Sales patterns by hour, customer rating, cuisines and other parameters
     - Inventory Usage estimation through total order and demand.
   
-  ### 3. Modeling
+  ### 3. Predictive Model for Demand Forecasting by Day/Time.
   - Due to the dataset being limited to a single day:
     - Trained a **Random Forest Regressor** (RFR) to forecast demand during dinner hours (6 PM–11 PM) using lunch-hour data (11 AM–5 PM).
     - Visualized feature importance to understand key demand drivers.
@@ -36,7 +36,7 @@
   - Normalized all metrics to balance their influence and avoid domination by any single factor.
   - Created a correlation heatmap to analyze relationships among ratings and revenue.
   
-  ### 5. Dashboard
+  ### 5. Interactive Dashboard
   - Built a **Streamlit dashboard** to interactively explore data insights and support business decisions.
   - To run the dashboard:
     ```bash
@@ -46,3 +46,8 @@
   ## Setup
   ```bash
   pip install -r requirements.txt
+  ```
+
+## Scope of Improvement
+- Analysis can be improved and can be further detailed based on different aspects
+- Predictive model can be more detailed if the dataset is enriched.
